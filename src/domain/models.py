@@ -1,8 +1,8 @@
 from sqlalchemy import ForeignKey, Integer, String
 from sqlalchemy.orm import Mapped, mapped_column, relationship
 from sqlalchemy.types import Enum as SQLAlchemyEnum
-from database import Base
 
+from .base import Base
 from .enums import DeviceType
 
 
