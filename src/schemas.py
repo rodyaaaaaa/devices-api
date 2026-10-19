@@ -1,11 +1,6 @@
-from enum import Enum
 from pydantic import BaseModel, ConfigDict
 
-
-class DeviceType(str, Enum):
-    terminal_HV = "терминал HikVision"
-    terminal_Dahua = "терминал Dahua"
-    marshrutizator = "маршрутизатор"
+from domain.enums import DeviceType
 
 
 class DeviceCreate(BaseModel):

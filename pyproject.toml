@@ -4,6 +4,7 @@ version = "0.1.0"
 description = "Учёт терминалов и маршрутизаторов"
 requires-python = ">=3.12"
 dependencies = [
+    "alembic>=1.20.0",
     "fastapi[standard]",
     "sqlalchemy>=2.1.4",
 ]
